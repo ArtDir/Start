@@ -245,11 +245,41 @@ body textarea:required:valid {
 
 
 /*   стили под level90   */
-.logo {
-    max-width: 55px;
-    margin-top: -7px;
-    margin-right: 14px;
+header {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    height: 120px;
 }
+.logo {
+    max-width: 60px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float:left;
+}
+.ava {
+    max-width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float:right;
+}
+.profile {
+    padding-top: 32px;
+    text-align: right;
+}
+.company {
+    padding-top: 32px;
+}
+.profile a,
+.company a {
+    text-decoration: none;
+    color: #d9d9d9;
+}
+.profile a:hover,
+.company a:hover {
+    color: #7f7f7f;
+}
+
 .content h2 {
     margin-top: 100px;
     margin-bottom: 30px;
@@ -283,3 +313,7 @@ footer {
     margin-top: 22px;
     margin-bottom: 5px;
 }
+
+/*   эксперимент с меню   */
+
+

@@ -1,0 +1,663 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"list-st",
+				"list-style-position"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"mari",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"im",
+				"important"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2151,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shablon.html",
+			"settings":
+			{
+				"buffer_size": 48283,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/bootstrap_skin.css",
+			"settings":
+			{
+				"buffer_size": 15852,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 147447,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 3686,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 209.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kir/GitHub/start/css",
+		"/Users/kir/GitHub/start/img"
+	],
+	"file_history":
+	[
+		"/Users/kir/GitHub/start/css/bootstrap.css",
+		"/Users/kir/GitHub/start/shablon.html",
+		"/Users/kir/Desktop/learn GIT",
+		"/Users/kir/Desktop/start/css/fonts.css",
+		"/Users/kir/Desktop/start/shablon.html",
+		"/Users/kir/Desktop/start/css/bootstrap_skin.css",
+		"/Users/kir/Desktop/start/js/common.js",
+		"/Users/kir/Desktop/start/index.html",
+		"/Users/kir/Desktop/start/css/bootstrap.css",
+		"/Users/kir/Desktop/themeforest-13080328-limitless-responsive-web-application-kit/Layout 1/LTR/form_checkboxes_radios.html",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/kir/Desktop/game/custom.css",
+		"/Users/kir/Desktop/Верстка/main.css",
+		"/Users/kir/Desktop/Верстка/boot.html",
+		"/Users/kir/Desktop/Верстка/check.html",
+		"/Users/kir/Desktop/start/css/media.css",
+		"/Users/kir/Desktop/start/css/main.css",
+		"/Users/kir/Desktop/themeforest-13080328-limitless-responsive-web-application-kit/Layout 1/LTR/assets/css/icons/icomoon/styles.css",
+		"/Users/kir/Desktop/themeforest-13080328-limitless-responsive-web-application-kit/Layout 1/LTR/assets/css/components.css",
+		"/Users/kir/Desktop/themeforest-13080328-limitless-responsive-web-application-kit/Layout 1/LTR/assets/css/core.css",
+		"/Users/kir/Desktop/themeforest-13080328-limitless-responsive-web-application-kit/Layout 1/LTR/assets/css/bootstrap.css",
+		"/Users/kir/Desktop/bootstrap-elements/assets/css/main.css",
+		"/Users/kir/Desktop/bootstrap-elements/index.html",
+		"/Users/kir/Desktop/bootstrap-elements/bootstrap_skin.css",
+		"/Users/kir/Desktop/game/course.html",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/Goto-CSS-Declaration/Default (OSX).sublime-keymap",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/Users/kir/Documents/Проекты/Треш/style.saas",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/Default/Defoult (OSX).sublime-keymap",
+		"/Users/kir/Documents/Проекты/Треш/гнормр.txt",
+		"/Users/kir/Downloads/xScope.4.1_OSX_CRK-FFF/FFF.NFO",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/User/bootfonts.sublime-snippet",
+		"/Users/kir/Desktop/game/s01e01.html",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/User/bootstrap.sublime-snippet",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/User/bootblock.sublime-snippet",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/User/snipet-bootstrap",
+		"/Users/kir/Library/Application Support/Sublime Text 3/Packages/User/btstrp.xml",
+		"/Users/kir/Desktop/game/docs/kvest/maketi/scene_02.html",
+		"/Users/kir/Desktop/game/s04e01.html",
+		"/Users/kir/Desktop/game/css/bootstrap.css",
+		"/Users/kir/Desktop/game/s03e01.html",
+		"/Users/kir/Desktop/game/docs/Экоромика орехов",
+		"/Users/kir/Desktop/game/navigation.html",
+		"/Users/kir/Desktop/game/s03e01wrong.html",
+		"/Users/kir/Desktop/game/s02e01.html",
+		"/Users/kir/Desktop/game/signin.html",
+		"/Users/kir/Desktop/game/docs/UseCases",
+		"/Users/kir/Desktop/game/signin_v2.html",
+		"/Users/kir/Desktop/game/signin2.htm",
+		"/Users/kir/Desktop/game/js/tweenlite.js",
+		"/Users/kir/Downloads/ZDAzZjQwN/index.html",
+		"/Users/kir/Documents/Проекты/Текущие/Boootstrap TEST/blog/custom.css",
+		"/Users/kir/Downloads/site (4)/css/project.css",
+		"/Users/kir/Downloads/megapack 4/css/main.css",
+		"/Users/kir/Downloads/animate.css",
+		"/Users/kir/Desktop/UC Login/UC Login.txt",
+		"/Users/kir/Documents/Проекты/Текущие/Boootstrap TEST/blog/usecases.html",
+		"/Users/kir/Documents/Проекты/Треш/scenario",
+		"/Users/kir/Documents/Проекты/Треш/Пример технического задания",
+		"/Users/kir/Documents/Проекты/Текущие/Boootstrap TEST/blog/css/bootstrap.css",
+		"/Users/kir/Downloads/levelru/index.html",
+		"/Users/kir/Downloads/levelru/css/project.css",
+		"/Users/kir/Documents/Проекты/СИСТЕМА/pages/thanks.html",
+		"/Users/kir/Documents/Проекты/СИСТЕМА/UseCases",
+		"/Users/kir/Documents/Проекты/СИСТЕМА/css/main.css",
+		"/Users/kir/Documents/Проекты/СИСТЕМА/index.html",
+		"/Users/kir/Desktop/Верстка/axure.html",
+		"/Users/kir/Desktop/Верстка/index.html",
+		"/Users/kir/Downloads/emmet-sublime-master/README.md",
+		"/Users/kir/Desktop/Верстка/sociallocker/css/pandalocker.2.0.7.min.css",
+		"/Users/kir/Desktop/Верстка/sociallocker/css/pandalocker.2.0.7.css",
+		"/Users/kir/Documents/Проекты/Треш/Верстка/index.html",
+		"/Users/kir/Documents/Проекты/Треш/Верстка/main.css"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pimar",
+			"jquery",
+			"checkbox",
+			"dropdown-menu",
+			"alert-dissmissable .close",
+			"legend {\n  padding: 0;\n  border: 0;\n}",
+			".bs",
+			"select",
+			"option",
+			".form-control",
+			"help",
+			"control-label",
+			"primary",
+			"badge",
+			"select",
+			"#select",
+			"help-block",
+			"radio",
+			"styled",
+			"styled ",
+			".styled ",
+			" styled ",
+			"styled",
+			"checkbox",
+			"label",
+			"control-label",
+			"form-control",
+			"form-cont",
+			"form-control",
+			"Control-label",
+			"inputEmail",
+			"custom",
+			"default",
+			"btn",
+			"box-sha",
+			"h2",
+			"radio",
+			"th",
+			"table th",
+			"text-decoration:",
+			"a",
+			"a ",
+			"li ",
+			"li",
+			"li {",
+			"text-decoration:",
+			"heigh",
+			"form-co",
+			"thum",
+			"alert",
+			"background-color: rgba(0,0,225,0.05);",
+			"form-control",
+			"task",
+			"form-contro",
+			"textarea",
+			"texta",
+			"form",
+			"form-",
+			"btn",
+			".js",
+			"jquery.js",
+			".btn",
+			"btn",
+			"btn-pri",
+			"btn",
+			"добав",
+			"статья кира",
+			"bc",
+			"@media",
+			"popup",
+			"businesstricks.ru",
+			"Как",
+			"businesstricks.ru/test/img/fastproto.jpg",
+			".onp-sl{position:relative!\\",
+			".onp-sl{position:relative!",
+			".onp-sl { position: relative !important; background-color: #f9f9f9;",
+			".onp-sl {\n    position: relative !important;\n    background-color: #f9f9f9;",
+			"touch",
+			"float",
+			"center",
+			"1000"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "366b65f7",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "shablon.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "0243394e",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "css/bootstrap_skin.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "css",
+							"buffer_scroll_name": "709331a4",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/bootstrap.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 147447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3845,
+								3845
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "css",
+							"buffer_scroll_name": "d85fe4d1",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 120.0,
+						"translation.y": 6057.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "css",
+							"buffer_scroll_name": "4d511da7",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.551183458608,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 116.0
+	},
+	"pinned_build_system": "",
+	"project": "start.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 127.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

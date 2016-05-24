@@ -1,7 +1,4 @@
 /*из бутстраповской темы*/
-body {
-    padding-top: 50px;
-}
 
 body>.navbar {
     -webkit-transition: background-color 300ms ease-in;
@@ -86,14 +83,12 @@ body>.navbar {
     margin-bottom: 15px;
 }
 
-.progress {
+/*.progress {
     margin-bottom: 10px;
 }
-
 footer {
     margin: 5em 0;
 }
-
 footer li {
     float: left;
     margin-right: 1.5em;
@@ -103,7 +98,7 @@ footer li {
 footer p {
     clear: left;
     margin-bottom: 0;
-}
+}*/
 
 .splash {
     padding: 9em 0 2em;
@@ -247,7 +242,44 @@ body input:required:valid,
 body textarea:required:valid {
 	
 }
-body {
-	font-family: "RobotoRegular", sans-serif;
-	font-size: 16px;
+
+
+/*   стили под level90   */
+.logo {
+    max-width: 55px;
+    margin-top: -7px;
+    margin-right: 14px;
+}
+.content h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.task {
+    margin-bottom: 100px;
+    margin-top: 20px;
+    line-height: 0.8;
+    background-color: #f9f5e4;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.task p {
+    margin-bottom: 10px;
+}
+footer {
+    height: 100px;
+    background-color: #ffffff;
+    color: #CCCCCC;
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.foottext p {
+    font-weight: 200;
+    margin-top: 22px;
+    margin-bottom: 5px;
 }

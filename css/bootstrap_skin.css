@@ -1,8 +1,11 @@
 body {
 	font-family: 'Roboto',sans-serif;
 	font-weight: 400;
+  font-size: 16px;
 }
 p {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
   line-height: 1.75em;
   margin-bottom: 1em;
 }
@@ -43,17 +46,25 @@ a:focus {
   border-color: #e7e7e7;
 
 }
-.navbar-default p {
+.navbar-default .navbar-nav > li > a {
+  color: #dddddd;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
   font-size: 18px;
+  text-decoration: none;
+  margin-top: 7px;
+  margin-bottom: 8px;
 }
 .navbar-default .navbar-brand {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 300;
   color: #dddddd;
+  font-size: 18px;
 }
 .navbar-brand {
-  padding: 16px 15px;
+  padding: 17px 15px;
   line-height: 30px;
 }
 .navbar-toggle {

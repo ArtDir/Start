@@ -270,12 +270,10 @@ header {
 .company {
     padding-top: 32px;
 }
-.profile a,
 .company a {
     text-decoration: none;
     color: #d9d9d9;
 }
-.profile a:hover,
 .company a:hover {
     color: #7f7f7f;
 }
@@ -303,7 +301,7 @@ footer {
     background-color: #ffffff;
     color: #CCCCCC;
     border-top: 1px solid #e4e4e4;
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     width: 100%;
     left: 0;
@@ -313,7 +311,21 @@ footer {
     margin-top: 22px;
     margin-bottom: 5px;
 }
-
-/*   эксперимент с меню   */
-
+/* Left Menu Btn */
+.menu-btn {
+    padding: 10px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #7f7f7f;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.menu-btn:hover {
+    background: #fff;
+    opacity: 1;
+}
+.menu-btn span {
+    padding: 10px;
+}
 

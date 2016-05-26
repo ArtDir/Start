@@ -252,20 +252,47 @@ header {
     height: 120px;
 
 }
-.logo {
+/*.logo {
     max-width: 60px;
     vertical-align: middle;
+}*/
+/*a.logo {
+    background: url(../img/logo-grey-min.png); 
+    display: block; 
+    max-width: 60px;
+    max-height: 50px;
+    background-size: cover;
+    float: left;
+   }
+a.logo:hover {
+    background: url(../img/logo-red-min.png);
+    height: 50px; 
+    display: block;
+   }*/
+
+a.logo {
+    background: url(../img/logo-sprite.png) no-repeat; /* Путь к файлу с исходным  рисунком */
+    background-size: 128px 50px;
+    display: inline-block;
+    width: 64px; /* Ширина рисунка в пикселах */
+    height: 50px; /* Высота рисунка */
+    vertical-align: middle;
+}
+a.logo:hover {
+    background-position: -64px 0; /* Смещение фона */
 }
 .company {
     margin-top: 22px;
+    opacity: 0.5;
+    margin-bottom: 30px;
 }
 .company a {
     padding: 13px;
     text-decoration: none;
-    color: #d9d9d9;
-}
-.company a:hover {
     color: #7f7f7f;
+}
+.company:hover {
+    opacity: 1;
 }
 /* Left Menu Btn */
 .menu-btn {
@@ -274,7 +301,6 @@ header {
     background: #fff;
     color: #7f7f7f;
     text-align: right;
-    cursor: pointer;
     opacity: 0.5;
 }
 .menu-btn:hover {
@@ -301,7 +327,6 @@ header {
     margin-bottom: 30px;
 }
 .task {
-    margin-bottom: 100px;
     margin-top: 20px;
     line-height: 0.8;
     background-color: #f9f5e4;
@@ -315,6 +340,7 @@ header {
     margin-bottom: 10px;
 }
 footer {
+    margin-top: 200px;
     height: 100px;
     background-color: #ffffff;
     color: #CCCCCC;

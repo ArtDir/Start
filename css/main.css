@@ -250,33 +250,51 @@ header {
     font-weight: 400;
     font-size: 18px;
     height: 120px;
+
 }
 .logo {
     max-width: 60px;
-    margin-top: 20px;
-    margin-right: 20px;
-    float:left;
-}
-.ava {
-    max-width: 60px;
-    margin-top: 20px;
-    margin-left: 20px;
-    float:right;
-}
-.profile {
-    padding-top: 32px;
-    text-align: right;
+    vertical-align: middle;
 }
 .company {
-    padding-top: 32px;
+    margin-top: 22px;
 }
 .company a {
+    padding: 13px;
     text-decoration: none;
     color: #d9d9d9;
 }
 .company a:hover {
     color: #7f7f7f;
 }
+/* Left Menu Btn */
+.menu-btn {
+    margin-top: 22px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #7f7f7f;
+    text-align: right;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.menu-btn:hover {
+    background: #fff;
+    opacity: 1;
+}
+.menu-btn img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 8px;
+}
+.menu-btn a {
+    padding: 13px;
+    text-decoration: none;
+    color: #7f7f7f;
+}
+.menu-btn a:hover {
+    color: #7f7f7f;
+}
+/*  end left menu  */
 
 .content h2 {
     margin-top: 100px;
@@ -311,21 +329,5 @@ footer {
     margin-top: 22px;
     margin-bottom: 5px;
 }
-/* Left Menu Btn */
-.menu-btn {
-    padding: 10px;
-    margin-bottom: 30px;
-    background: #fff;
-    color: #7f7f7f;
-    text-align: center;
-    cursor: pointer;
-    opacity: 0.5;
-}
-.menu-btn:hover {
-    background: #fff;
-    opacity: 1;
-}
-.menu-btn span {
-    padding: 10px;
-}
+
 

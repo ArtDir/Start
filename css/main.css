@@ -250,7 +250,6 @@ header {
     font-weight: 400;
     font-size: 18px;
     height: 120px;
-
 }
 /*.logo {
     max-width: 60px;
@@ -320,6 +319,7 @@ a.logo:hover {
 .menu-btn a:hover {
     color: #7f7f7f;
 }
+
 /*  end left menu  */
 
 .content h2 {

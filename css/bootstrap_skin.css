@@ -771,11 +771,11 @@ input,
 select,
 button,
 textarea {
-  font: normal 1em/1.1em "Helvetica Neue", Arial, Helvetica, sans-serif;
+/* font: normal 1em/1.1em "Helvetica Neue", Arial, Helvetica, sans-serif;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   -ms-box-sizing: content-box;
-  box-sizing: content-box;
+  box-sizing: content-box;*/
 }
 input::-moz-focus-inner {
   border: none;

@@ -398,12 +398,6 @@ footer {
     margin-top: 30px;
     margin-bottom: 8px;
 }
-.well textarea {
-    width: 450px; 
-}
-.well input {
-    width: 350px;
-}
 legend {
     margin-top: 30px;
 }

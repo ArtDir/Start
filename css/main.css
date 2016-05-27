@@ -249,7 +249,7 @@ header {
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 18px;
-    height: 120px;
+    height: 60px;
 }
 
 a.logo {
@@ -306,7 +306,7 @@ a.logo:hover {
 /*  end left menu  */
 
 .content h2 {
-    margin-top: 100px;
+    margin-top: 160px;
     margin-bottom: 30px;
 }
 
@@ -398,7 +398,7 @@ footer {
     margin-top: 30px;
     margin-bottom: 8px;
 }
-legend {
+.well legend {
     margin-top: 30px;
 }
 

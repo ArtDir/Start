@@ -7,10 +7,13 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.factoid {
-	    margin: 50px auto;
+	    margin: 30px auto;
 	}
 	.coins img {
-		margin-bottom: 30px;
+		margin-bottom: 15px;
+	}
+	.menu-btn a {
+    display: none;
 	}
 }
 
@@ -19,11 +22,25 @@
 	.content h2 {
 	 	font-size: 26px;
 	}
+	.company a {
+		padding: 8px;
+	}
+	a.cource-name {
+		font-size: 14px;
+	}
+	a.cource-name span {
+		display: none;
+	}
+	.content h2 {
+    margin-top: 100px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.foottext span {
+    display: none;
+	}
 }
 
 /* Custom, iPhone Retina */

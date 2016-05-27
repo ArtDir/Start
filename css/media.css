@@ -6,14 +6,19 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.factoid {
+	    margin: 50px auto;
+	}
+	.coins img {
+		margin-bottom: 30px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
- .content h2 {
- 	font-size: 26px;
- }
+	.content h2 {
+	 	font-size: 26px;
+	}
 }
 
 /* Extra Small Devices, Phones */

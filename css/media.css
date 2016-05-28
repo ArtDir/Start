@@ -15,6 +15,7 @@
 	.menu-btn a {
     display: none;
 	}
+
 }
 
 /* Small Devices, Tablets */
@@ -34,6 +35,7 @@
 	.content h2 {
     margin-top: 100px;
 	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -68,7 +70,6 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
 }
 
  /* Large Devices, Wide Screens */

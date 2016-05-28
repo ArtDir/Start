@@ -687,7 +687,7 @@ fieldset[disabled] .btn-danger.active {
 .alert-dismissable .close,
 .alert-dismissible .close {
   position: relative;
-  top: -3px;
+  top: -10px;
   right: -5px;
   color: inherit;
 }

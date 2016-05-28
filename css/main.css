@@ -276,6 +276,9 @@ a.logo:hover {
 .company:hover {
     opacity: 1;
 }
+.alerts {
+    margin-top: 35px;
+}
 /* Left Menu Btn */
 .menu-btn {
     margin-top: 22px;

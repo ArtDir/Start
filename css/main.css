@@ -395,39 +395,28 @@ footer {
     margin-bottom: 5px;
 }
 /*   стили соцкнопочек   */
-#vk {
-    background: url('../img/social-sprite.png') no-repeat 0 0;
-    width: 20px;
-    height: 20px;
-    background-size: 60px 40px;
-    display: inline-block;
-    vertical-align: middle;
+.soclist {
+    text-align: right;
 }
-#vk:hover {
-    background-position: 0 -20px; /* Смещение фона */
+ul.soclist {
+    margin-top: 8px; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+ul.soclist li {
+    display: inline;
+    margin-right: 0px; /* Отступ слева */
+    padding: 0px 13px; /* Поля вокруг текста */
 }
-#fb {
-    background: url('../img/social-sprite.png') no-repeat -20px 0;
-    width: 20px;
-    height: 20px;
-    background-size: 60px 40px;
-    display: inline-block;
-    vertical-align: middle;
-}
-#fb:hover {
-    background-position: -20px -20px; /* Смещение фона */
-}
-#tw {
-    background: url('../img/social-sprite.png') no-repeat -39.5px 0;
-    width: 24px;
-    height: 20px;
-    background-size: 60px 40px;
-    display: inline-block;
-    vertical-align: middle;
-}
-#tw:hover {
-    background-position: -39.5px -20px; /* Смещение фона */
-}
+.sprites { background: url(../img/social-sprite.png) no-repeat; }
+.s_01:hover { width: 20px; height: 19px; background-position: 0 0; opacity: 1;}
+.s_02:hover { width: 20px; height: 19px; background-position: 0 -19px; opacity: 1;}
+.s_03:hover { width: 20px; height: 19px; background-position: 0 -38px; opacity: 1;}
+.s_04:hover { width: 20px; height: 19px; background-position: 0 -57px; opacity: 1;}
+.s_01 { width: 20px; height: 19px; background-position: 0 -76px; opacity: 0.5;}
+.s_02 { width: 20px; height: 19px; background-position: 0 -95px; opacity: 0.5}
+.s_03 { width: 20px; height: 19px; background-position: 0 -114px; opacity: 0.5}
+.s_04 { width: 20px; height: 19px; background-position: 0 -133px; opacity: 0.5}
+
 /*   конец соцкнопочек   */
 
 /*   стили странички profile.html   */

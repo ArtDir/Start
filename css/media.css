@@ -1,3 +1,11 @@
+/*==========  profile all small screens  ==========*/
+
+@media (max-width:1199px) {
+    label.col-lg-3.pustihka{
+        display: none;
+    }
+}
+
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */

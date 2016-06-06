@@ -6,6 +6,26 @@
     }
 }
 
+/*==========  profile md screen  ==========*/
+@media only screen and (max-width : 992px) {
+	label.col-lg-3.control-label {
+		margin-bottom: 5px
+	}
+}
+
+
+/*==========  profile xs screen  ==========*/
+@media only screen and (max-width : 480px) {
+	.well {
+		padding: 35px
+	}
+	.content p {
+		margin-top: 40px
+	}
+}
+
+
+
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */

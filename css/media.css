@@ -1,30 +1,3 @@
-/*==========  profile all small screens  ==========*/
-
-@media (max-width:1199px) {
-    label.col-lg-3.pustihka{
-        display: none;
-    }
-}
-
-/*==========  profile md screen  ==========*/
-@media only screen and (max-width : 992px) {
-	label.col-lg-3.control-label {
-		margin-bottom: 5px
-	}
-}
-
-
-/*==========  profile xs screen  ==========*/
-@media only screen and (max-width : 480px) {
-	.well {
-		padding: 35px
-	}
-	.content p {
-		margin-top: 40px
-	}
-}
-
-
 
 /*==========  Desktop First Method  ==========*/
 
@@ -104,5 +77,31 @@
 @media only screen and (min-width : 1200px) {
 	.content p{
 	    padding-right: 20% !important;
+	}
+}
+
+/*==========  for profile.html small screens  ==========*/
+
+@media (max-width:1199px) {
+    label.col-lg-3.pustihka{
+        display: none;
+    }
+}
+
+/*==========  for profile.html md screen  ==========*/
+@media only screen and (max-width : 992px) {
+	label.col-lg-3.control-label {
+		margin-bottom: 5px;
+	}
+}
+
+
+/*==========  for profile.html xs screen  ==========*/
+@media only screen and (max-width : 480px) {
+	.well {
+		padding: 35px;
+	}
+	.content p {
+		margin-top: 40px;
 	}
 }

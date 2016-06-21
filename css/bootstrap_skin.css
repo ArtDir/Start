@@ -2,6 +2,7 @@ body {
 	font-family: 'Roboto',sans-serif;
 	font-weight: 400;
   font-size: 16px;
+  margin-top: 160px;
 }
 p {
   font-family: 'Roboto',sans-serif;
@@ -38,6 +39,11 @@ a:hover,
 a:focus {
   color: #ff0000;
   text-decoration: underline;
+}
+ul.unstyled, ol.unstyled {
+    margin-left: 0;
+    line-height: 30px;
+    list-style: none;
 }
 .navbar {
   position: relative;

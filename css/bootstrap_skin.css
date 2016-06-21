@@ -45,6 +45,9 @@ ul.unstyled, ol.unstyled {
     line-height: 30px;
     list-style: none;
 }
+.text-success {
+  color: #40C440;
+}
 .navbar {
   position: relative;
   min-height: 40px;

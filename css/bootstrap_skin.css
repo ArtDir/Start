@@ -937,3 +937,9 @@ input::-moz-focus-inner {
   filter: alpha(opacity=100);
 }
 /*   конец чекбоексов и радиокнопок   */
+
+/* всплывающее окно  */
+.modal-content {
+      border-radius: 0px;
+          box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}

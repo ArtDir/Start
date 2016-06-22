@@ -26,6 +26,7 @@ h3 {
   font-family: 'Open Sans',sans-serif;
     font-weight: 300;
     font-size: 20pt;
+    margin-bottom: 25px;
 }
 h4 {
   font-family: 'Open Sans',sans-serif;
@@ -46,8 +47,17 @@ ul.unstyled, ol.unstyled {
     line-height: 30px;
     list-style: none;
 }
+ol {
+  margin-left: -22px;
+}
+li {
+  margin-bottom: 6px;
+}
 .text-success {
   color: #40C440;
+}
+.text-danger {
+  color: #CD3338;
 }
 .navbar {
   position: relative;

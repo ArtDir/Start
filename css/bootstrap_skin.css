@@ -943,6 +943,15 @@ input::-moz-focus-inner {
       border-radius: 0px;
           box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
 }
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+
  .close {
     position: absolute;
     top: -12px;
@@ -951,6 +960,7 @@ input::-moz-focus-inner {
     height: 40px;
     text-align: center;
     line-height: 30px;
+    opacity: 1;
 }
     .close i {
     display: inline-block;

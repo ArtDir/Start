@@ -1,23 +1,49 @@
+
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.factoid {
+	    margin: 30px auto;
+	}
+	.coins img {
+		margin-bottom: 15px;
+	}
+	.menu-btn a {
+    display: none;
+	}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.content h2 {
+	 	font-size: 26px;
+	}
+	.company a {
+		padding: 8px;
+	}
+	a.cource-name {
+		font-size: 14px;
+	}
+	a.cource-name span {
+		display: none;
+	}
+	.content h2 {
+    margin-top: 100px;
+	}
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.foottext span {
+    display: none;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -45,10 +71,37 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
 }
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	.content p{
+	    padding-right: 20% !important;
+	}
+}
 
+/*==========  for profile.html small screens  ==========*/
+
+@media (max-width:1199px) {
+    label.col-lg-3.pustihka{
+        display: none;
+    }
+}
+
+/*==========  for profile.html md screen  ==========*/
+@media only screen and (max-width : 992px) {
+	label.col-lg-3.control-label {
+		margin-bottom: 5px;
+	}
+}
+
+
+/*==========  for profile.html xs screen  ==========*/
+@media only screen and (max-width : 480px) {
+	.well {
+		padding: 35px;
+	}
+	.content p {
+		margin-top: 40px;
+	}
 }

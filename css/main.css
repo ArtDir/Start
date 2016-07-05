@@ -1,7 +1,5 @@
+
 /*из бутстраповской темы*/
-body {
-    padding-top: 50px;
-}
 
 body>.navbar {
     -webkit-transition: background-color 300ms ease-in;
@@ -86,14 +84,12 @@ body>.navbar {
     margin-bottom: 15px;
 }
 
-.progress {
+/*.progress {
     margin-bottom: 10px;
 }
-
 footer {
     margin: 5em 0;
 }
-
 footer li {
     float: left;
     margin-right: 1.5em;
@@ -103,7 +99,7 @@ footer li {
 footer p {
     clear: left;
     margin-bottom: 0;
-}
+}*/
 
 .splash {
     padding: 9em 0 2em;
@@ -247,7 +243,202 @@ body input:required:valid,
 body textarea:required:valid {
 	
 }
-body {
-	font-family: "RobotoRegular", sans-serif;
-	font-size: 16px;
+
+
+/*   стили под level90   */
+header {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    height: 60px;
 }
+
+a.logo {
+    background: url(../img/logo-sprite.png) no-repeat; /* Путь к файлу с исходным  рисунком */
+    background-size: 128px 50px;
+    display: inline-block;
+    width: 64px; /* Ширина рисунка в пикселах */
+    height: 50px; /* Высота рисунка */
+    vertical-align: middle;
+}
+a.logo:hover {
+    background-position: -64px 0; /* Смещение фона */
+}
+.company {
+    margin-top: 22px;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+.company a {
+    padding: 13px;
+    text-decoration: none;
+    color: #7f7f7f;
+}
+.company:hover {
+    opacity: 1;
+}
+.alerts {
+    margin-top: 35px;
+}
+/* Left Menu Btn */
+.menu-btn {
+    margin-top: 22px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #7f7f7f;
+    text-align: right;
+    opacity: 0.5;
+}
+.menu-btn:hover {
+    background: #fff;
+    opacity: 1;
+}
+.menu-btn img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 8px;
+}
+.menu-btn a {
+    padding: 13px;
+    text-decoration: none;
+    color: #7f7f7f;
+}
+.menu-btn a:hover {
+    color: #7f7f7f;
+}
+
+/*  end left menu  */
+
+.content h2 {
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+
+
+/*   правая колонка и выноски   */
+
+.factoid {
+    width: 180px;
+    height: 160px;
+    border: 4px solid #6aca6b;
+    text-align: center;
+    padding: 14px;
+    margin: auto;
+}
+.level span {
+      font-family: 'ProximaNova-Semibold', 'Proxima Nova', sans-serif;
+      font-weight: 400;
+      line-height: 0;
+      color: #6aca6b;
+}
+.level h3 {
+      font-family: 'ProximaNova-Bold', 'Proxima Nova', sans-serif;
+      font-weight: 400;
+      font-size: 62px;
+      line-height: 0.7;
+      color: #6aca6b;
+}
+.level p {
+      font-family: 'ProximaNova-Semibold', 'Proxima Nova', sans-serif;
+      font-weight: 400;
+      line-height: 1.9;
+      color: #e7e4e4;
+}
+.coins {
+    margin-left:16px;
+    padding-top: 16px;
+    color: #e7e4e4;
+    width: 120px;
+    text-align: left;
+    line-height: 1.2;
+}
+.coins span {
+    padding-left: 7px;
+    font-family: 'ProximaNova-reg', 'Proxima Nova', sans-serif;
+    font-weight: 400;  
+}
+.coins img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 9px;
+}
+
+/*   конец правой колонки и выносок   */
+
+.task {
+    margin-top: 20px;
+    line-height: 0.8;
+    background-color: #f9f5e4;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.task p {
+    margin-bottom: 10px;
+}
+footer {
+    margin-top: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    color: #CCCCCC;
+    border-top: 1px solid #e4e4e4;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.foottext p {
+    font-weight: 200;
+    margin-top: 22px;
+    margin-bottom: 5px;
+}
+/*   стили соцкнопочек   */
+#vk {
+    background: url('../img/social-sprite.png') no-repeat 0 0;
+    width: 20px;
+    height: 20px;
+    background-size: 60px 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#vk:hover {
+    background-position: 0 -20px; /* Смещение фона */
+}
+#fb {
+    background: url('../img/social-sprite.png') no-repeat -20px 0;
+    width: 20px;
+    height: 20px;
+    background-size: 60px 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#fb:hover {
+    background-position: -20px -20px; /* Смещение фона */
+}
+#tw {
+    background: url('../img/social-sprite.png') no-repeat -39.5px 0;
+    width: 24px;
+    height: 20px;
+    background-size: 60px 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#tw:hover {
+    background-position: -39.5px -20px; /* Смещение фона */
+}
+/*   конец соцкнопочек   */
+
+/*   стили странички profile.html   */
+
+.well p {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+.well legend {
+    margin-top: 30px;
+}
+
+/*   конец стилей странички profile.html   */

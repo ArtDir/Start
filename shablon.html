@@ -5,19 +5,19 @@
 
 	<meta charset="utf-8" />
 	<title>Страница для тестирования элментов</title>
-<!-- 	попробую добавить чекбоксы    -->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-	<link rel="stylesheet" href="css/bootstrap.css" media="screen" />
+ 	
+ 	<link rel="stylesheet" href="css/bootstrap.css" media="screen" />
 	<!-- You Custom Bootstrap Skin -->
 	<link rel="stylesheet" href="css/bootstrap_skin.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
-	<!-- My favorite freefots -->
-
+	<!-- радио и все такое -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 	<script src="js/radiobutton.js"></script>
 
 
 </head>
@@ -573,6 +573,25 @@
 				              Primary checkbox
 				             </label>
 				            </div>
+				            <div style="margin-top: 40px;">
+								<label class="custom_input">
+									<input type="checkbox"><span>Отметь меня</span>
+								</label>
+								<label class="custom_input">
+									<input type="checkbox"><span>Полностью</span>
+								</label>
+								<label class="custom_input disabled">
+									<input type="checkbox"><span>О, да, детка!</span>
+								</label>
+							</div>
+							<div style="margin-bottom: 20px;">
+								<label class="custom_input">
+									<input type="radio" name="radio"><span>Хочешь меня?</span>
+								</label></br>
+								<label class="custom_input">
+									<input type="radio" name="radio"><span>А может меня?</span>
+								</label>
+							</div>
 						</div>
 					</div>
 					<div class="form-group">
@@ -1347,9 +1366,9 @@
 	<script src="assets/libs/respond/respond.min.js"></script>
 	<![endif]-->
 
-	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
- 	<script src="js/common.js"></script>
+ 	<!-- <script src="js/common.js"></script> -->
+
 
 </body>
 </html>

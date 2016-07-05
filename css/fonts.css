@@ -17,6 +17,18 @@
   font-weight: 800;
   font-style: normal;
 }
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('../fonts/ProximaNova/ProximaNova-Semibold.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Semibold-Italic';
+  src: url('../fonts/ProximaNova/ProximaNova-SemiboldItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
 /* cyrillic-ext */
 @font-face {
   font-family: 'Open Sans';

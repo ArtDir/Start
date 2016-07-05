@@ -937,3 +937,35 @@ input::-moz-focus-inner {
   filter: alpha(opacity=100);
 }
 /*   конец чекбоексов и радиокнопок   */
+
+/* всплывающее окно  */
+.modal-content {
+      border-radius: 0px;
+          box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+
+ .close {
+    position: absolute;
+    top: -12px;
+    right: -40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 1;
+}
+    .close i {
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    background: url('../img/cross.png') no-repeat;
+}
